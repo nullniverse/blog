@@ -11,8 +11,9 @@ This is paragraph text. I usually break it at 120 chars because
 I like the hard breaks, and I'm used to it from development.
 > This is a quote. Quotes look good in presentation documents;
 > Very important.
+
 [ditaa,target="a-diagram"]
-...
+....
     +--------+   +-------+    +-------+
     |        | --+ ditaa +--> |       |
     |  Text  |   +-------+    |diagram|
@@ -22,4 +23,4 @@ I like the hard breaks, and I'm used to it from development.
         :                         ^
         |       Lots of work      |
         +-------------------------+
-...
+....
