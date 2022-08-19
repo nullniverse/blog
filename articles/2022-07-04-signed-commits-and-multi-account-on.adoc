@@ -1,0 +1,6 @@
+= Signed Commits and Multi-account on Github
+
+[source,ruby]
+----
+puts "Hello, World!"
+----
