@@ -1,2 +1,9 @@
-# blog
-My personal blog
+= Welcome
+
+[source,ruby]
+----
+puts "Hello, World!"
+----
+
+== Heading 2
+=== Heading 3
