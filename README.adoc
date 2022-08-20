@@ -1,4 +1,5 @@
 = Welcome
+stylesheet: asciidoc-classic.css
 
 [source,ruby]
 ----
