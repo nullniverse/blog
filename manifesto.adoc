@@ -1,7 +1,7 @@
 = Manifesto
 :stylesheet: asciidoc-classic.css
 
-IMPORTANT: Esse manifesto visa conscientizar e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
+IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
 
 == Greve contra qualquer evento que:
 
