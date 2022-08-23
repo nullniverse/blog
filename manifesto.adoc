@@ -27,7 +27,7 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 - Não oferte ingressos free para algumas empresas, para sabermos quais são fácilmente corruptíveis
 - Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
 - Hospede CISM. CISM nem entra no evento!
-- Não tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
+- Tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
 - Use dicas da Alura. Olharemos feio pra quem já abriu uma IDE na vida
 - Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mês terão sua participação reduzida
 - Tenha membros da Nova Era Cibermística. Membros e palestrantes precisam disponibilizar histórico de e-mail dos últimos 12 meses para comprovar que não utilizaram as palavras "coach", "agile", "scrum" ou "security champions"
