@@ -1,0 +1,34 @@
+= Manifesto
+:stylesheet: asciidoc-classic.css
+
+IMPORTANT: Esse manifesto visa conscientizar e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
+
+== Greve contra qualquer evento que:
+
+- Custe mais de 100 pila pra entrar
+- Não publique os palestrantes antes do evento
+- Tenha coisa de LGPD, GRC e os caralho
+- Fique em lugar bosta
+- Use a grana com alguma coisa estúpida/non-sense
+- Não tenha brinde. Tem que ter brinde. No mínimo camiseta
+- Tenha Hackaflag patrocinado por vendor. CTF com ferramenta de vendor com ataques de 1980 para participantes desprovidos intelectualmente não passarão
+- Patrocinador não dê brinde. todo stand de patrocinador tem que dar brinde!!! Porque sim!!!
+- Não tenha nenhum tipo de constrangimento público. Tem que ter leak nos banheiros
+- Tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
+- Se rolar briga, ninguém poderá apartar - O evento é o momento de resolver desavenças entre profissionais da área. Quando a lógica não funciona, sempre tem o brute-force 
+- Impeça o aliciamento em cima de profissionais, o qual tem de der pesado, afinal o cibercrime também é autorizado a recrutar
+- Não faça vista grossa para drogas ilícitas
+- Não tenha palestras de weaponizing de itens físicos de uso básico e comum (como transformar um garfo numa faca)
+- Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem para comprar pão
+- Não tenha medidas de inclusão: pelo menos 30% dos palestrantes precisam ter histórico criminal
+- Fale sobre acessibilidade web
+- Não tenha stand de engenharia social, mesmo se for um gordo que nem fala com mulher
+- Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
+- Não oferte ingressos free para algumas empresas, para sabermos quais são fácilmente corruptíveis
+- Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
+- Hospede CISM. CISM nem entra no evento!
+- Não tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
+- Use dicas da Alura. Olharemos feio pra quem já abriu uma IDE na vida
+- Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mes terao sua participacao reduzida
+- Tenha membros da nova era cibermística. Membros e palestrantes precisam disponibilizar histórico de e-mail dos últimos 12 meses para comprovar que não utilizaram as palavras "coach", "agile", "scrum" ou "security champions"
+- Seja corrompido por recrutadoras gostosas. Quem saiu de uma empresa como sênior pra ir para uma outra como pleno porque caiu na lábia de que ali era a maior da Améric Latina e os cambáu, nao poderá entrar
