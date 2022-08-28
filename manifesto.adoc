@@ -18,6 +18,7 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 - Food trucks que possuam comida custando mais que 1 (um) rim
 - O participante já tenha sido corrompido por recrutadoras gostosas
 - Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
+- Participantes que se ofendam quando perguntamos: -hey, como vai a sua mãe?
 - Não tenha nenhum tipo de constrangimento público. Tem que ter leak nos banheiros
 - Não tenha stand de engenharia social, mesmo se for um gordo que nem fala com mulher
 - Convide para palestrar qualquer falastrão que faz compilado de link em pdf no LinkedIn
@@ -27,8 +28,8 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 - Use a grana com alguma coisa estúpida/non-sense. E.g: Gourmetizando insetos para as pessoas comerem
 - Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
 - Não tenha palestras de weaponizing de itens físicos de uso básico e comum (como transformar um garfo numa faca)
-- Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem mesmo para comprar pão
 - Impeça o aliciamento de profissionais - que tem que ser pesado -, afinal o cibercrime também é autorizado a recrutar
+- Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem mesmo para comprar pão
 - Tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
 - Tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
 - Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mês terão sua participação reduzida
