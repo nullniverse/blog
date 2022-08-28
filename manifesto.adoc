@@ -5,30 +5,36 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 
 == Greve contra qualquer evento que:
 
-- Custe mais de 100 pila pra entrar
-- Não publique os palestrantes antes do evento
-- Tenha coisa de LGPD, GRC e os caralho
 - Fique em lugar bosta
-- Use a grana com alguma coisa estúpida/non-sense
-- Não tenha brinde. Tem que ter brinde. No mínimo camiseta
-- Tenha Hackaflag patrocinado por vendor. CTF com ferramenta de vendor com ataques de 1980 para participantes desprovidos intelectualmente não passarão
-- Patrocinador não dê brinde. Todo stand de patrocinador tem que dar brinde!!! Porque sim!!!
-- Não tenha nenhum tipo de constrangimento público. Tem que ter leak nos banheiros
-- Não tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
-- Se rolar briga, ninguém poderá apartar - O evento é o momento de resolver desavenças entre profissionais da área. Quando a lógica não funciona, sempre tem o brute-force 
-- Impeça o aliciamento em cima de profissionais, o qual tem de ser pesado, afinal o cibercrime também é autorizado a recrutar
+- Fale sobre acessibilidade web
+- Custe mais de 100 pila pra entrar
+- O participante use dicas da Alura
+- Tenha coisa de LGPD, GRC e os caralho
+- Hospede CISM. CISM nem entra no evento!
 - Não faça vista grossa para drogas ilícitas
+- Não publique os palestrantes antes do evento
+- Tenha alguem falando que trabalha com purple team
+- Olharemos feio pra quem nunca abriu uma IDE na vida
+- Não tenha brinde. Tem que ter brinde. No mínimo camiseta
+- Food trucks que possuam comida custando mais que 1 (um) rim
+- O participante já tenha sido corrompido por recrutadoras gostosas.
+- Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
+- Não tenha nenhum tipo de constrangimento público. Tem que ter leak nos banheiros
+- Não tenha stand de engenharia social, mesmo se for um gordo que nem fala com mulher
+- Convide para palestrar qualquer falastrão que faz compilado de link em pdf no LinkedIn
+- Patrocinador não dê brinde. Todo stand de patrocinador tem que dar brinde!!! Porque sim!!!
+- Não tenha medidas de inclusão: pelo menos 30% dos palestrantes precisam ter histórico criminal
+- Não oferte ingressos free para algumas empresas, para sabermos quais são fácilmente corruptíveis
+- Use a grana com alguma coisa estúpida/non-sense. E.g: Gourmetizamdo insetos para as pessoas comerem
+- Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
 - Não tenha palestras de weaponizing de itens físicos de uso básico e comum (como transformar um garfo numa faca)
 - Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem para comprar pão
-- Não tenha medidas de inclusão: pelo menos 30% dos palestrantes precisam ter histórico criminal
-- Fale sobre acessibilidade web
-- Não tenha stand de engenharia social, mesmo se for um gordo que nem fala com mulher
-- Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
-- Não oferte ingressos free para algumas empresas, para sabermos quais são fácilmente corruptíveis
-- Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
-- Hospede CISM. CISM nem entra no evento!
+- Impeça o aliciamento em cima de profissionais, o qual tem de ser pesado, afinal o cibercrime também é autorizado a recrutar
 - Tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
-- O participante use dicas da Alura. Olharemos feio pra quem já abriu uma IDE na vida
+- Não tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
 - Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mês terão sua participação reduzida
+- Tenha Hackaflag patrocinado por vendor. CTF com ferramenta de vendor com ataques de 1980 para participantes desprovidos intelectualmente não passarão
+- Oferte certificados de participação ou CPEs para a presença do evento, oras, você é casado com a ISC² ou presta contas pra sua mãe da onde você vai, porra?
+- Quem saiu de uma empresa como sênior pra ir para uma outra como pleno, porque caiu na lábia de que ali era a maior da América Latina e os cambáu, nao poderá entrar!
+- Se rolar briga, ninguém poderá apartar - O evento é o momento de resolver desavenças entre profissionais da área. Quando a lógica não funciona, sempre tem o brute-force
 - Tenha membros da Nova Era Cibermística. Membros e palestrantes precisam disponibilizar histórico de e-mail dos últimos 12 meses para comprovar que não utilizaram as palavras "coach", "agile", "scrum" ou "security champions"
-- O participante já tenha sido corrompido por recrutadoras gostosas. Quem saiu de uma empresa como sênior pra ir para uma outra como pleno, porque caiu na lábia de que ali era a maior da Améric Latina e os cambáu, nao poderá entrar!
