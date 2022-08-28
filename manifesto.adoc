@@ -28,9 +28,9 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 - Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
 - Não tenha palestras de weaponizing de itens físicos de uso básico e comum (como transformar um garfo numa faca)
 - Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem mesmo para comprar pão
-- Impeça o aliciamento em cima de profissionais - o qual tem de ser pesado -, afinal o cibercrime também é autorizado a recrutar
+- Impeça o aliciamento de profissionais - que tem que ser pesado -, afinal o cibercrime também é autorizado a recrutar
 - Tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
-- Não tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
+- Tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
 - Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mês terão sua participação reduzida
 - Tenha Hackaflag patrocinado por vendor. CTF com ferramenta de vendor com ataques de 1980 para participantes desprovidos intelectualmente não passarão
 - Oferte certificados de participação ou CPEs para a presença do evento, oras, você é casado com a ISC² ou presta contas pra sua mãe da onde você vai, porra?
