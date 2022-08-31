@@ -8,34 +8,32 @@ IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abus
 - Fique em lugar bosta
 - Fale sobre acessibilidade web
 - Custe mais de 100 pila pra entrar
-- O participante use dicas da Alura
 - Tenha coisa de LGPD, GRC e os caralho
 - Hospede CISM. CISM nem entra no evento!
 - Não faça vista grossa para drogas ilícitas
 - Não publique os palestrantes antes do evento
-- Tenha alguém falando que trabalha com purple team
-- Olharemos feio pra quem nunca abriu uma IDE na vida
-- Food trucks que possuam comida custando mais que 1 (um) rim
-- O participante já tenha sido corrompido por recrutadoras gostosas
+- Use a grana com alguma coisa estúpida/non-sense
+- Não tenha brinde. Tem que ter brinde. No mínimo camiseta
+- Tenha retardado que compila pdf em formato de pptx no LinkedIn
 - Tenha profissionais CISSP. Portadores de CISSP são barrados de palestrar
-- Participantes que se ofendam quando perguntamos: -hey, como vai a sua mãe?
 - Não tenha nenhum tipo de constrangimento público. Tem que ter leak nos banheiros
 - Não tenha stand de engenharia social, mesmo se for um gordo que nem fala com mulher
-- Convide para palestrar qualquer falastrão que faz compilado de link em pdf no LinkedIn
+- O participante use dicas da Alura. Olharemos feio pra quem já abriu uma IDE na vida
 - Patrocinador não dê brinde. Todo stand de patrocinador tem que dar brinde!!! Porque sim!!!
 - Não tenha medidas de inclusão: pelo menos 30% dos palestrantes precisam ter histórico criminal
-- Possuir algum retardado trazendo palestra de burnout como se fosse um problema exclusivo de SI
-- Não oferte ingressos free para algumas empresas, assim saberemos quais são facilmente corruptíveis
-- Use a grana com alguma coisa estúpida/non-sense. E.g: Gourmetizando insetos para as pessoas comerem
+- Não oferte ingressos free para algumas empresas, para sabermos quais são fácilmente corruptíveis
 - Tenha meninas de RH no stand ao invés de contratar promoters em sua maioria GPs, para reduzir custos
+- Não tenha barzinho free com Vodka, Whiskey e refri é obrigatório. Principalmente se tiver treta na frente
 - Não tenha palestras de weaponizing de itens físicos de uso básico e comum (como transformar um garfo numa faca)
-- Impeça o aliciamento de profissionais - que tem que ser pesado -, afinal o cibercrime também é autorizado a recrutar
-- Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem mesmo para comprar pão
+- Não possua no minimo 1 (um) retardado que faça lockpicking, sendo que nem sai da própria casa, nem para comprar pão
+- Impeça o aliciamento em cima de profissionais, o qual tem de ser pesado, afinal o cibercrime também é autorizado a recrutar
 - Tenha alguém que nunca programou. Para participar do evento, tem que programar no mínimo um fizzbuzz na linguagem preferida
-- Tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
+- Não tenha divisão de patrocínios de vendors por platinum, gold, prata e bronze - pois Sec é apenas uma questão de ego afinal...
 - Tenha vendors conhecidos por serem braço-curto: Vendors com chamados abertos por clientes pendentes a mais de 1 mês terão sua participação reduzida
 - Tenha Hackaflag patrocinado por vendor. CTF com ferramenta de vendor com ataques de 1980 para participantes desprovidos intelectualmente não passarão
-- Oferte certificados de participação ou CPEs para a presença do evento, oras, você é casado com a ISC² ou presta contas pra sua mãe da onde você vai, porra?
-- Quem saiu de uma empresa como sênior pra ir para uma outra como pleno, porque caiu na lábia de que ali era a maior da América Latina e os cambáu, nao poderá entrar!
+- Vendedor coach. Vendedor só pode entrar depois de fazer uma prova básica de conceitos cyber e ter 90% de acerto! Terninho está terminantemente proibido.
 - Se rolar briga, ninguém poderá apartar - O evento é o momento de resolver desavenças entre profissionais da área. Quando a lógica não funciona, sempre tem o brute-force
+- Stand de fabricante sem demo! Ir nos eventos e não ver os SEs dos fabricantes chorando de tanto falar a mesma coisa pra um monte de gente que não vai comprar nada é reconfortante
+- Tenha speaker remoto. Evento foda tem que ter Speaker foda presencialmente! Pagar pra assistir o cara via Live do Zoom do lado de um monte de gente olhando para um telão com som bosta eu assisto em casa
 - Tenha membros da Nova Era Cibermística. Membros e palestrantes precisam disponibilizar histórico de e-mail dos últimos 12 meses para comprovar que não utilizaram as palavras "coach", "agile", "scrum" ou "security champions"
+- O participante já tenha sido corrompido por recrutadoras gostosas. Quem saiu de uma empresa como sênior pra ir para uma outra como pleno, porque caiu na lábia de que ali era a maior da Améric Latina e os cambáu, nao poderá entrar!
