@@ -1,6 +1,8 @@
 = Manifesto
 :stylesheet: asciidoc-classic.css
 
+https://twitter.com/infosec1000grau[@Infosec1000grau]
+
 IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
 
 == Greve contra qualquer evento que:
