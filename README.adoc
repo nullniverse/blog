@@ -40,6 +40,8 @@ puts "Hello, World!"
 
 Water (stem:[H_2O]) is a critical component.
 
+.Account scheme
+image:account-scheme.png[]
 
 == First of all
 
