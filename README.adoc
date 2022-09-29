@@ -1,10 +1,43 @@
-= Welcome
-:stylesheet: asciidoc-classic.css
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+:revealjs_slideNumber: true
+:stem: latexmath
+:source-highlighter: highlight.js
+:highlightjs-languages: c, cpp, hpp, cc, hh, c++, h++, cxx, hxx, h, rust, swift, go, golang, elixir, xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist, svg, java, jsp, json, javascript, js, jsx, kotlin, kt, tex, lisp, perl, pl, pm, powershell, ps, ps1, pgsql, postgres, postgresql, python, py, gyp, ruby, rb, gemspec, podspec, thor, irb, rust, rs, sql, yml, yaml
 
-[source,ruby]
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 23
+:imagesdir: /img
+
+
+ifdef::env-github[:outfilesuffix: .adoc]
+
+ifdef::env-github,env-browser[]
+// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+:chapter-label:
+:description: это описание
+:listing-caption: Перечисление
+:figure-caption: Фигура
+
+= Я приветствую вас
+
+[source,golang]
 ----
 puts "Hello, World!"
 ----
+
+Water (stem:[H_2O]) is a critical component.
+
 
 == First of all
 

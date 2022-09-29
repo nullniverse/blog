@@ -1,5 +1,6 @@
-= Manifesto
 :stylesheet: asciidoc-classic.css
+
+= Manifesto
 
 https://twitter.com/infosec1000grau[@Infosec1000grau]
 
