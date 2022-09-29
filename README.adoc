@@ -26,7 +26,9 @@ endif::[]
 :listing-caption: Перечисление
 :figure-caption: Фигура
 
+
 = Я приветствую вас
+:numbered:
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
