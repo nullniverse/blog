@@ -98,3 +98,75 @@ $ gpg --armor --export 3AA5C34371567BD2
 ----
 $ git config user.signingkey 3AA5C34371567BD2
 ----
+
+The process above can be used to generate as many keys as you want. It's useful if you plan to manage more than a single account on your machine/session, as we'll cover in the next part.
+
+From now on, you're able to effectively prove yourself and sign every commit you make. Welcome to surveillance capitalism!
+
+== Using multiple accounts on git and Github
+
+.Possible interactions with git and Github in a single machine/account
+image:account-scheme.png[]
+
+Chances are you've already lost at least 5 seconds of your life starring at the above diagram. I really appreciated your taste! 
+
+So, when using git on an account in a computer, you could have a virtually unlimited number of git accounts configured if you observe some tricks. But often, the most sought after feature is to maximize productivity, allowing you to commit to your professional projects, and your personal or open-source ones (thanks if you do the later). 
+
+The steps below will either work if your needs are the former, or if you want to apply a different kind of use to your accounts. Keep reading. 
+
+What the image above says, is that in some cases, you want to use your personal username to work for your org, but using the org. domain email, while trying to preserve this username and your personal email adress for your projects, also. But... is that possible? *Yes*, my defossilized sapiens!
+
+
+Let's do that now:
+
+. Head back to your https://github.com/settings/emails[email] settings. In this case, let's create the scenario where you're using your personal account and planning to use this account's username to commit to your org.
+. Simply add your org's email address and then make it valid. 
+. Your primary address can be either your org or your personal one
+
+After confirming your address, let's go to your .gitconfig settings in your machine.
+
+In this step, you'll not need to configure your SSH keys for each account, as the username will not change. For possible iterations of the contrary, you could https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer[check this] ancient scroll.
+
+We are going to generate and use two additional files for this case, despite the .gitconfig file, and also will specify an static working path dir, to be used with one of the accounts (my personal taste favors the use for the professional account). 
+
+* ~/.git-personal.conf
+* ~/.git-professional.conf
+
+In the .gitconfig file you'll have your path choice set and additional commands:
+
+* .gitconfig
+[source,shell]
+----
+include]
+        path = ~/.git-personal.conf
+[includeIf "gitdir:~/Documents/YourOrgFolder/"]
+        path = ~/.git-professional.conf
+[init]
+        defaultBranch = main
+----
+* .git-personal
+[user]
+        signingkey = 3AA5C34371567BD2
+        email = your-personal@email.com
+        name = your-username
+        mergeTool = vimDiff
+[commit]
+        gpgsign = true
+* .git-professional
+[user]
+        signingkey = FD668DAFE840A89C
+        email = your-professional-email@organization.com
+        name = same-username-as-your-personal-one
+        mergeTool = vimDiff
+[commit]
+        gpgsign = true
+
+One thing to notice in the above configuration is that you can use more than one signing key, or use the same to signed-commit in both projects - make sure your boss don't work two part-time jobs, if you'll just one key btw. 
+
+If you're taking advantage of this pandemic and working more than one all-remote job, you could negotiate to use your same username and enjoy a multi-org config. Just create more .git-professional# files and more [includeIf] entries.
+
+That's it.
+
+[.text-center]
+I hope it has been informative to you, and I would like to thank you for reading!
+
