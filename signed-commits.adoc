@@ -155,7 +155,10 @@ include]
 [init]
         defaultBranch = main
 ----
+
 * .git-personal
+[source,shell]
+----
 [user]
         signingkey = 3AA5C34371567BD2
         email = your-personal@email.com
@@ -163,7 +166,11 @@ include]
         mergeTool = vimDiff
 [commit]
         gpgsign = true
+----
+
 * .git-professional
+[source,shell]
+----
 [user]
         signingkey = FD668DAFE840A89C
         email = your-professional-email@organization.com
@@ -171,6 +178,7 @@ include]
         mergeTool = vimDiff
 [commit]
         gpgsign = true
+----
 
 One thing to notice in the above configuration is that you can use more than one signing key, or use the same to signed-commit in both projects - make sure your boss don't work two part-time jobs, if you'll just one key btw. 
 
