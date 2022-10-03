@@ -82,9 +82,9 @@ Your email must be the main email address of your Github account
 ----
 $ gpg --list-secret-keys --keyid-format=long
 ----
- 
+ +
 Copy the _3AA5C34371567BD2_ part to be used in the next command.
-
++
 [source,shell]
 ----
 $ gpg --list-secret-keys --keyid-format=long
@@ -94,9 +94,9 @@ sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
 uid                          Hubot
 ssb   4096R/42B317FD4BA89E7A 2016-03-10
 ----
-
++
 Now, run the below command and copy the exhibited key in your https://docs.github.com/pt/github-ae@latest/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account[GPG settings on Github]:
-
++
 [source,shell]
 ----
 $ gpg --armor --export 3AA5C34371567BD2
