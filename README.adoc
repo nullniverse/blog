@@ -50,8 +50,11 @@ What kind of architecture and in which level of abstraction does the code that s
 
 == Essays
 
+еще впереди...
 
 == Projects
+
+еще впереди...
 
 == OSINT-me
 
