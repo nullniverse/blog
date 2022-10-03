@@ -3,11 +3,16 @@ ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
 
-There was a time when cryptic sysadmins and developers integrated their scripts and codes underneath a pile of skull and rocks (kindly called https://en.wikipedia.org/wiki/Revision_Control_System[_Revision Control Systems_]). Times passed, and after the plume of dust and smoke succeeding the meteor impact dissipated, new systems came to fruition aiming to save the last remnants of living dinossaurs who dared to still keep facing an screen and handling a keyboard - sometimes even using a mouse! - non-stop.
+author null8607@163.com
+1.0, 10-03-2022: Git quests
+
+There was a time when cryptic sysadmins and developers integrated their scripts and codes underneath a pile of skull and rocks (kindly called https://en.wikipedia.org/wiki/Revision_Control_System[_Revision Control Systems_]). 
+
+Times passed, and after the plume of dust and smoke succeeding the meteor impact dissipated, new systems came to fruition aiming to save the last remnants of living dinossaurs who dared to still keep facing an screen and handling a keyboard - sometimes even using a mouse! - non-stop.
 
 Evolved offsprings filled the earth, and rapidly became popular and known by their own names, like Subversion and TurtoiseSVN, the later its GUI implementation. Things were gaining traction back then, and the fast-paced rhythm on which software was being developed, spawned a new set of demon capable of spread havoc and anxiety for generations to come. Well known as https://tortoisesvn.net/[Git]. 
 
-Loved and hated, different tastes contributed evenly to what's better abstracted today as _source-control management_ (_SCM_) creating a https://en.wikipedia.org/wiki/Comparison_of_version-control_software[[rich and diverse ecosystem] of tools for the occultist craft of software engineering.
+Loved and hated, different tastes contributed evenly to what's better abstracted today as _source-control management_ (_SCM_) creating a https://en.wikipedia.org/wiki/Comparison_of_version-control_software[rich and diverse ecosystem] of tools for the occultist craft of software engineering.
 
 In my life, I've only used two systems for source-control management, SVN and Git, so I wanted to give it the propper attention it deserves (Github in this case) because I've seen many organizations using it over the years, and people scratching their heads to be more productive while trying to avoid IT Security directives for a safer environment. 
 
@@ -22,3 +27,36 @@ My goal is simple, and centered on two milestones for this post, namely:
 
 == Signing Commits
 
+Signing posts is the most overlooked component when you are working for a closed doors org if they enforce self-domain usage for contributors in private repos, that is: only users with email _user@myorg.com_ are able to contribute on private repositories and no outside collaborators are allowed. 
+
+That works - in parts! Let's suppose you have started small and gaining traction month by month, either in revenue and corporate growth, but also in collaborators among your team who constantly push changes to production. Once you start adding complexity in your environment, and aren't able to assess broad aspects of individual skill sets of your team members beyond the limit scope of your product needs and engineering interactions - neither are inclined to spend large bucks with security software for everyone's laptops - so a couple of questions arise:
+
+
+1. Are my devs skilled enough in security practices while using their machines for off-work related issues?
+2. How can I be assured that the startling new shiny tools integrated in our pipelines, doesn't pose a security risk for the entire supply-chain of our product?
+3. What if a disgruntled employee starts to pose a security risk and plans to act on behalf of other employees to compromise our chain and our users?
+4. More what _ifs_...
+
+With these concerns at bay, a preliminary solution is to activate signed commits. 
+
+As https://stackoverflow.com/a/43623702[this post] from the old is explaining, it poses a question of authenticity and integrity, because:
+
+[quote,Cris from Stackoverflow Apr 26 2017]
+... the software [in question] is critical to some type of security, an attacker might compromise you by substituting broken software for the software you think you're getting, e.g. something with a backdoor you couldn't easily identify. After all, you want some code, you click "download", and you trust that what arrives over the wire is what was written on the button.
+
+Sufficient to say, it also puts another layer of trust in commits inside your org, validating contributions from its members. 
+
+So, how do you do that? 
+
+I'll summarize the main steps below, but feel free to https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#gpg-commit-signature-verification[check this] doc from Github and follow at your own pace.
+
+. Install your GPG suite of tools.
+.. Windows: https://www.gpg4win.org/[Gpg4win]
+.. MacOS: https://gpgtools.org/[GPG Suite] integrates automagically in the MacOs keychain. Check be above documentation for nitty-gritty details.
+.. Unix/Linux: Chances are you already have it, but give http://linux.die.net/man/1/gpg-agent[gpg-agent] a try
+. https://docs.github.com/pt/enterprise-cloud@latest/get-started/signing-up-for-github/verifying-your-email-address[Verify your main address]
+. Activate commit auto-sign after each commit, this will save time on each commit, instead of using git commit -S -m "comment" you can use only git commit -m "comment". Save you some working memory allocation.
+[source,shell]
+----
+$ git config commit.gpgsign true
+----
