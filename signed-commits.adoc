@@ -61,7 +61,9 @@ I'll summarize the main steps below, but feel free to https://docs.github.com/en
 ----
 $ git config commit.gpgsign true
 ----
++
 . Generate your key:
++
 [source,shell]
 ----
 $ gpg --full-generate-key 
@@ -69,7 +71,9 @@ $ gpg --full-generate-key
 +
 It *must* be at least 4096 bits (default option)
 Your email must be the main email address of your Github account
++
 . List and export your newly created GPG key
++
 [source,shell]
 ----
 $ gpg --list-secret-keys --keyid-format=long
@@ -88,12 +92,15 @@ ssb   4096R/42B317FD4BA89E7A 2016-03-10
 ----
 +
 Now, run the below command and copy the exhibited key in your https://docs.github.com/pt/github-ae@latest/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account[GPG settings on Github]:
++
 [source,shell]
 ----
 $ gpg --armor --export 3AA5C34371567BD2
 # Prints the GPG key ID, in ASCII armor format
 ----
++
 . Telling Github you're a winner. Inserting your keys in the config
++
 [source,shell]
 ----
 $ git config user.signingkey 3AA5C34371567BD2
