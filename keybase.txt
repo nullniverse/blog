@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nullniverse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.nullniverse.xyz
+  * I am nullniverse (https://keybase.io/nullniverse) on keybase.
+  * I have a public key ASA5dJYC-9cS8GjKt9IMNFGg5kTtgPGROTsgC1NfWzRFfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ade7860b5cee625a005eb0cc9c8472a947dcec3ccd74a34560f865268d7fd7e0a",
+      "host": "keybase.io",
+      "kid": "012039749602fbd712f068cab7d20c3451a0e644ed80f191393b200b535f5b34457f0a",
+      "uid": "facdc7eac9f4eaef8b2493a26eb72d19",
+      "username": "nullniverse"
+    },
+    "merkle_root": {
+      "ctime": 1664808498,
+      "hash": "99a7fa5a28b24ad3e26a41c3386c70701d777c6364e2cb41c7631a0c75527fca84eaa2bd89021d72dfabf544aefa134cb1e858de1626f26e48675c5d2c6becb2",
+      "hash_meta": "7bf58a369fc0f6c0743fceb5f6d005a492ee0aa5999712f7ba8aec694c0d28df",
+      "seqno": 23302946
+    },
+    "service": {
+      "entropy": "sKTqI0tWx+Brl5o1vpfBRq6z",
+      "hostname": "blog.nullniverse.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1664808537,
+  "expire_in": 504576000,
+  "prev": "5abbc8569851b08ce6eb8d792f694411975b249be061a859b20461414795f7b4",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOXSWAvvXEvBoyrfSDDRRoOZE7YDxkTk7IAtTX1s0RX8Kp3BheWxvYWTESpcCLsQgWrvIVphRsIzm6415L2lEEZdbJJvgYahZsgRhQUeV97TEIKMUDg4CkznU2fcOZYCsbMRJjbWqWXXv82EE8g/Lgy8EAgHCo3NpZ8RA97ahG0YAuUCYdlHooEqV0fxTN1YOuNuST/JIzWVYu5YCAdBGIgTjMIg4dz3XL8l8N3Lgsl8RvCvxbBi5ZQI+BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEvDaI+F5+KUclv5AGwSTj4UZxDRKFZ+sII7Eq6ZeSxHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nullniverse
+
+==================================================================

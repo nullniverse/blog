@@ -53,4 +53,6 @@ What kind of architecture and in which level of abstraction does the code that s
 
 == Projects
 
-== About it
+== OSINT-me
+
+https://keybase.io/nullniverse[My Keybase]
