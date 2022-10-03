@@ -1,3 +1,8 @@
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
 = Signed commits and multi-account on Github
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
@@ -68,7 +73,6 @@ $ git config commit.gpgsign true
 ----
 $ gpg --full-generate-key 
 ----
-+
 It *must* be at least 4096 bits (default option)
 Your email must be the main email address of your Github account
 +
@@ -78,9 +82,9 @@ Your email must be the main email address of your Github account
 ----
 $ gpg --list-secret-keys --keyid-format=long
 ----
-+ 
+ 
 Copy the _3AA5C34371567BD2_ part to be used in the next command.
-+
+
 [source,shell]
 ----
 $ gpg --list-secret-keys --keyid-format=long
@@ -90,9 +94,9 @@ sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
 uid                          Hubot
 ssb   4096R/42B317FD4BA89E7A 2016-03-10
 ----
-+
+
 Now, run the below command and copy the exhibited key in your https://docs.github.com/pt/github-ae@latest/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account[GPG settings on Github]:
-+
+
 [source,shell]
 ----
 $ gpg --armor --export 3AA5C34371567BD2
@@ -175,5 +179,5 @@ If you're taking advantage of this pandemic and working more than one all-remote
 That's it.
 
 [.text-center]
-I hope it has been informative to you, and I would like to thank you for reading!
+_I hope it has been informative to you, and I would like to thank you for reading!_
 
