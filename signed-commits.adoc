@@ -56,7 +56,45 @@ I'll summarize the main steps below, but feel free to https://docs.github.com/en
 .. Unix/Linux: Chances are you already have it, but give http://linux.die.net/man/1/gpg-agent[gpg-agent] a try
 . https://docs.github.com/pt/enterprise-cloud@latest/get-started/signing-up-for-github/verifying-your-email-address[Verify your main address]
 . Activate commit auto-sign after each commit, this will save time on each commit, instead of using git commit -S -m "comment" you can use only git commit -m "comment". Save you some working memory allocation.
++
 [source,shell]
 ----
 $ git config commit.gpgsign true
+----
+. Generate your key:
+[source,shell]
+----
+$ gpg --full-generate-key 
+----
++
+It *must* be at least 4096 bits (default option)
+Your email must be the main email address of your Github account
+. List and export your newly created GPG key
+[source,shell]
+----
+$ gpg --list-secret-keys --keyid-format=long
+----
++ 
+Copy the _3AA5C34371567BD2_ part to be used in the next command.
++
+[source,shell]
+----
+$ gpg --list-secret-keys --keyid-format=long
+/Users/hubot/.gnupg/secring.gpg
+------------------------------------
+sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
+uid                          Hubot
+ssb   4096R/42B317FD4BA89E7A 2016-03-10
+----
++
+Now, run the below command and copy the exhibited key in your https://docs.github.com/pt/github-ae@latest/authentication/managing-commit-signature-verification/adding-a-new-gpg-key-to-your-github-account[GPG settings on Github]:
+[source,shell]
+----
+$ gpg --armor --export 3AA5C34371567BD2
+# Prints the GPG key ID, in ASCII armor format
+----
+. Telling Github you're a winner. Inserting your keys in the config
+[source,shell]
+----
+$ git config user.signingkey 3AA5C34371567BD2
 ----
