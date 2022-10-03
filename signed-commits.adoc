@@ -7,10 +7,10 @@
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
-
+'''
 author null8607@163.com
 1.0, 10-03-2022: Git quests
-
+'''
 There was a time when cryptic sysadmins and developers integrated their scripts and codes underneath a pile of skull and rocks (kindly called https://en.wikipedia.org/wiki/Revision_Control_System[_Revision Control Systems_]). 
 
 Times passed, and after the plume of dust and smoke succeeding the meteor impact dissipated, new systems came to fruition aiming to save the last remnants of living dinossaurs who dared to still keep facing an screen and handling a keyboard - sometimes even using a mouse! - non-stop.
@@ -25,7 +25,8 @@ In my life, I've only used two systems for source-control management, SVN and Gi
 
 My main concern that prompted me to write this post is because there's so much information out there about starting point git configurations, and a lot is missed even for large orgs when they try to implement base guidelines for starters. 
 
-My goal is simple, and centered on two milestones for this post, namely: 
+
+My goal is simple, and centered on two milestones : 
 
 * Signing commits
 * Using multiple accounts for the same username OR getting fame & glory
