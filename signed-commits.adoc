@@ -1,0 +1,24 @@
+= Signed commits and multi-account on Github
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
+
+There was a time when cryptic sysadmins and developers integrated their scripts and codes underneath a pile of skull and rocks (kindly called https://en.wikipedia.org/wiki/Revision_Control_System[_Revision Control Systems_]). Times passed, and after the plume of dust and smoke succeeding the meteor impact dissipated, new systems came to fruition aiming to save the last remnants of living dinossaurs who dared to still keep facing an screen and handling a keyboard - sometimes even using a mouse! - non-stop.
+
+Evolved offsprings filled the earth, and rapidly became popular and known by their own names, like Subversion and TurtoiseSVN, the later its GUI implementation. Things were gaining traction back then, and the fast-paced rhythm on which software was being developed, spawned a new set of demon capable of spread havoc and anxiety for generations to come. Well known as https://tortoisesvn.net/[Git]. 
+
+Loved and hated, different tastes contributed evenly to what's better abstracted today as _source-control management_ (_SCM_) creating a https://en.wikipedia.org/wiki/Comparison_of_version-control_software[[rich and diverse ecosystem] of tools for the occultist craft of software engineering.
+
+In my life, I've only used two systems for source-control management, SVN and Git, so I wanted to give it the propper attention it deserves (Github in this case) because I've seen many organizations using it over the years, and people scratching their heads to be more productive while trying to avoid IT Security directives for a safer environment. 
+
+[.underline]#Disclaimer#: I'm not trying to delve into this subject as there are a lot of https://github.com/dictcp/awesome-git[useful resources] and also an _de facto_ https://git-scm.com/book/en/v2[industry standard] book written about what git is and how to better leverage its system's functionality. If you want to go deep, just give it a try!
+
+My main concern that prompted me to write this post is because there's so much information out there about starting point git configurations, and a lot is missed even for large orgs when they try to implement base guidelines for starters. 
+
+My goal is simple, and centered on two milestones for this post, namely: 
+
+* Signing commits
+* Using multiple accounts for the same username OR getting fame & glory
+
+== Signing Commits
+

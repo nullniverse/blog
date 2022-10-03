@@ -28,20 +28,10 @@ endif::[]
 
 
 = Я приветствую вас
-:numbered:
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
 
-[source,golang]
-----
-puts "Hello, World!"
-----
-
-Water (stem:[H_2O]) is a critical component.
-
-.Account scheme
-image:account-scheme.png[]
 
 == First of all
 
@@ -52,3 +42,9 @@ My name is doug (lowercase because I host a plethora of other dimensions of "sel
 Being alive for quite some time, and watched this reality for so long, brings me to the very objective question: 
 
 > "What kind of architecture and in which level of abstraction does the code that sustains it all, run?"
+
+
+== Posts
+
+
+== Drafts
