@@ -82,7 +82,6 @@ Your email must be the main email address of your Github account
 ----
 $ gpg --list-secret-keys --keyid-format=long
 ----
- +
 Copy the _3AA5C34371567BD2_ part to be used in the next command.
 +
 [source,shell]
