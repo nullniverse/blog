@@ -27,7 +27,7 @@ endif::[]
 :figure-caption: Фигура
 
 
-    //derelict.garden/prev/blog.nullniverse.xyz[←] derelict garden webring //derelict.garden/next/blog.nullniverse.xyz[→]
+    link://derelict.garden/prev/blog.nullniverse.xyz[←] derelict garden webring link://derelict.garden/next/blog.nullniverse.xyz[→]
 
 = Я приветствую вас
 ifndef::env-github[:toc: left]
