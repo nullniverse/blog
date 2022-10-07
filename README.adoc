@@ -34,7 +34,9 @@ ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
 
-https://derelict.garden/prev/blog.nullniverse.xyz[<<] derelict garden webring https://derelict.garden/next/blog.nullniverse.xyz[>>]
+derelict garden webring
+
+https://derelict.garden/prev/blog.nullniverse.xyz[previous blog,window=read-later]  https://derelict.garden/next/blog.nullniverse.xyz[next blog,window=read-later]
 
 
 == Posts
