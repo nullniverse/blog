@@ -27,13 +27,16 @@ endif::[]
 :figure-caption: Фигура
 
 
-    https://derelict.garden/prev/blog.nullniverse.xyz[<<] derelict garden webring https://derelict.garden/next/blog.nullniverse.xyz[>>]
+
 
 = Я приветствую вас
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
 
+    https://derelict.garden/prev/blog.nullniverse.xyz[<<] derelict garden webring https://derelict.garden/next/blog.nullniverse.xyz[>>]
+
+    
 == Posts
 
 * https://blog.nullniverse.xyz/first-of-all[First of all]
