@@ -38,11 +38,14 @@ derelict garden webring
 
 https://derelict.garden/prev/blog.nullniverse.xyz[previous blog,window=read-later]  https://derelict.garden/next/blog.nullniverse.xyz[next blog,window=read-later]
 
+!!! BECOME A MEMBER !!!
+https://derelict.garden/enter.html[subscribe here]
+
 
 == Posts
 
-* https://blog.nullniverse.xyz/first-of-all[First of all]
-* https://blog.nullniverse.xyz/signed-commits[Signed commits and multi-account on Github]
+* https://blog.nullniverse.xyz/posts/first-of-all[First of all]
+* https://blog.nullniverse.xyz/posts/signed-commits[Signed commits and multi-account on Github]
 
 == Essays
 
