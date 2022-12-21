@@ -1,0 +1,44 @@
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
+= Searching for Perls: musings on Perl learning
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
+
+---
+
+author null8607@163.com
+1.0, 10-03-2022: Perl
+
+---
+
+I'm weak. And for most of my life I've been, either in will power or physical strenght. 
+What I knew for sure, since childhood, was that I liked computers and the possibility of extending my 
+weaknesses forward or at least pretend I was not that shameful. At must be capable of at least one 
+thing in my poor, miserable existance. 
+
+But coping with life isn't easy without support of any kind, so I started first at the labor market 
+accepting and filling in many disparate jobs as I could to subside my general living needs. After 
+several circumstances - most of them not pleasant at all - I understood that my place was near the 
+computer screen and typing things all the day and I decided I would like to get involved in the area. 
+
+Due to my lack of scholarship engagement, I discovered later in life how cumbersome that would be to 
+try to navigate without any prior knowledge, the murky waters of computer science and mathematics alone. 
+
+It was the year 2013 and I felt that it was the right time to search for something in this direction. And
+ then I started to get involved in the many communities Facebook hosted at that time, mainly A.P.D.A 
+ (Associação dos Programadores Depressivos Anônimos).  Drowned by the vastness of the field, I started 
+ gradually to get myself used to the inner workings of subjects and how they were interelated within 
+ each other. 
+
+Moving forward to 2016, I started my most formal role in tech, working for one of the major banks in Brazil 
+helping them migrate their datacenter services to a new one. There quickstarted my true passion for tech, 
+by being able to hold big servers and telco gear in my arms and seeing the marvelous world of the internet 
+infrastructure being unfolded before my eyes!
+
+Fast forwarding two years, and I found myself working with network automation making use of script languages 
+and mobile radio network systems. There came my first contacts with Perl. It was used to parse heavily terminal 
+screen outputs in the hundred thousand gear access a day. 
