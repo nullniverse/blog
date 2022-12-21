@@ -42,3 +42,8 @@ infrastructure being unfolded before my eyes!
 Fast forwarding two years, and I found myself working with network automation making use of script languages 
 and mobile radio network systems. There came my first contacts with Perl. It was used to parse heavily terminal 
 screen outputs in the hundred thousand gear access a day. 
+
+By having no prior CS knowledge and a lack of motivation at that time to dwelve more into this brand new (to me) 
+stack, I missed heavily one of the most life fulfilling discoveries of my entire life. 
+
+If I wasn't that weak with a lack to live life in its earnest, I can imagine my life would be completely different.
