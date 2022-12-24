@@ -1,9 +1,9 @@
+= Signed commits and multi-account on Github
 :icons: font
 :allow-uri-read:
 :stylesheet: asciidoc-classic.css
 :imagesdir: /img
 
-= Signed commits and multi-account on Github
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
@@ -14,6 +14,10 @@ author null8607@163.com
 1.0, 10-03-2022: Git quests
 
 ---
+
+This guide is just a collection of steps and use case for implementing multi-account authentication on Github
+
+== Introduction
 
 There was a time when cryptic sysadmins and developers integrated their scripts and codes underneath a pile of skull and rocks (kindly called https://en.wikipedia.org/wiki/Revision_Control_System[_Revision Control Systems_]). 
 

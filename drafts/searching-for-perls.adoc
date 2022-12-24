@@ -1,0 +1,21 @@
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
+= Searching for Perls: musings on Perl learning
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
+
+---
+
+author null8607@163.com
+1.0, 10-03-2022: Perl
+
+---
+
+I've lost a great chance in 2018 to learn more about Perl, and then I decided it was right on 
+time to get back to this glorious gem of computer programming language.
+
+
