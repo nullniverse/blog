@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Nullniverse Blog RSS</title>
+	<description>unfocused themes about tech, programming, and mental constructs</description>
+	<link>https://blog.nullniverse.xyz</link>
+	<language>en-us</language>
+	<copyright>2023 blog.nullniverse.xyz No rights reserved</copyright>
+	<lastBuildDate>Sat, 24 Dec 2022 16:14:35 -03</lastBuildDate>
+	<pubDate>Sat, 24 Dec 2022 16:14:35 -03</pubDate>
+	<ttl>1800</ttl>
+	<item>
+		<title>Signed commits and multi-account on Github</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/posts/signed-commits</link>
+		<guid>https://blog.nullniverse.xyz/posts/signed-commits</guid>
+		<pubDate>2022-12-20 13:19:13 UTC</pubDate>
+	</item>
+		<item>
+		<title>First of all</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/posts/first-of-all</link>
+		<guid>https://blog.nullniverse.xyz/posts/first-of-all</guid>
+		<pubDate>2022-12-20 13:19:13 UTC</pubDate>
+	</item>
+</channel>
+</rss>
