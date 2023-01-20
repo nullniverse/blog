@@ -8,6 +8,11 @@ IMPORTANT: Os dados aqui apresentados foram fornecidos de maneira anônima por c
 |===
 | Company Name | # Souls Evicted | Approx. Date | Location
 
+| Mobly
+| ?
+
+| 1/18/2023
+| São Paulo, BR
 
 | NuBank
 | 6
