@@ -1,0 +1,32 @@
+:stylesheet: asciidoc-classic.css
+
+= Cyber Layoffs
+
+IMPORTANT: Os dados aqui apresentados foram fornecidos de maneira anônima por colaboradores ou terceiros envolvidos. Qualquer tentativa de coerção aos administradores para apurar as origens destas informações será punida com o rigor da lei do mais forte.
+
+.Executions
+|===
+| Company Name | # Souls Evicted | Approx. Date | Location
+
+
+| NuBank
+| 6
+
+| 1/18/2023
+| São Paulo, BR
+
+| Unico
+| 5
+
+| 1/17/2023
+| São Paulo, BR
+
+| 2TM (MercadoBitcoin)
+| 10 
+
+| 9/1/2022
+| São Paulo, BR
+
+
+|===
+
