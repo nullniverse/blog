@@ -1,6 +1,6 @@
 :stylesheet: asciidoc-classic.css
 
-= Cyber Layoffs
+= Cybersecurity Layoffs
 
 IMPORTANT: Os dados aqui apresentados foram fornecidos de maneira anônima por colaboradores ou terceiros envolvidos. Qualquer tentativa de coerção aos administradores para apurar as origens destas informações será punida com o rigor da lei do mais forte.
 
