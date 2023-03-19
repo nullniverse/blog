@@ -27,9 +27,7 @@ endif::[]
 :figure-caption: Фигура
 
 
-
-
-= Я приветствую вас
+= nullniverse's blog
 ifndef::env-github[:toc: left]
 :toc-title: Резюме / Summary
 :toclevels: 5
@@ -42,18 +40,23 @@ https://derelict.garden/prev/blog.nullniverse.xyz[previous blog,window=read-late
 https://derelict.garden/enter.html[subscribe here]
 
 
+https://derelict.garden/garden/garden-article-template.html[What the heck is this garden thing?]
+
 == Posts
 
-* https://blog.nullniverse.xyz/posts/first-of-all[First of all]
 * https://blog.nullniverse.xyz/posts/signed-commits[Signed commits and multi-account on Github]
 
 == Essays
 
-еще впереди...
+* https://blog.nullniverse.xyz/posts/first-of-all[First of all]
 
 == Projects
 
-еще впереди...
+* https://blog.nullniverse.xyz/manifesto[A Manifesto against poor cybersecurity meetups - PT-BR]
+* https://blog.nullniverse.xyz/cyberlayoffs[Cybersecurity Layoffs in Brazil]
+* https://github.com/nullniverse/ohUrlShortener[URL Shortener self-hosted]
+* https://github.com/nullniverse/jibengong[基本功 (jī běn gōng) - Studies kwoon]
+* https://memo.nullniverse.xyz[My Blue Book]
 
 == OSINT-me
 
