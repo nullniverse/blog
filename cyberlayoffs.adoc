@@ -1,6 +1,21 @@
 :stylesheet: asciidoc-classic.css
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
 
 = Cybersecurity Layoffs
+
+---
+
+author null8607@163.com
+1.0, 01-18-2022: Git quests
+
+---
 
 IMPORTANT: Os dados aqui apresentados foram fornecidos de maneira anônima por colaboradores ou terceiros envolvidos. Qualquer tentativa de coerção aos administradores para apurar as origens destas informações será punida com o rigor da lei do mais forte.
 

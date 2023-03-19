@@ -48,11 +48,11 @@ https://derelict.garden/garden/garden-article-template.html[What the heck is thi
 
 == Essays
 
-* https://blog.nullniverse.xyz/posts/first-of-all[First of all]
+* https://blog.nullniverse.xyz/essays/first-of-all[First of all]
 
 == Projects
 
-* https://blog.nullniverse.xyz/manifesto[A Manifesto against poor cybersecurity meetups - PT-BR]
+* https://blog.nullniverse.xyz/manifesto[A Manifesto against poor cybersecurity meetups [PT-BR\]]
 * https://blog.nullniverse.xyz/cyberlayoffs[Cybersecurity Layoffs in Brazil]
 * https://github.com/nullniverse/ohUrlShortener[URL Shortener self-hosted]
 * https://github.com/nullniverse/jibengong[基本功 (jī běn gōng) - Studies kwoon]
