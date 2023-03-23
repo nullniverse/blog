@@ -56,7 +56,7 @@ https://derelict.garden/garden/garden-article-template.html[What the heck is thi
 * https://blog.nullniverse.xyz/cyberlayoffs[Cybersecurity Layoffs in Brazil]
 * https://github.com/nullniverse/ohUrlShortener[URL Shortener self-hosted]
 * https://github.com/nullniverse/jibengong[基本功 (jī běn gōng) - Studies kwoon]
-* https://memo.nullniverse.xyz[My Blue Book]
+* https://memo.nullniverse.xyz[Memo]
 
 == OSINT-me
 
