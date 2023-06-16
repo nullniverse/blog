@@ -14,14 +14,14 @@
 		<description></description>
 		<link>https://blog.nullniverse.xyz/posts/signed-commits</link>
 		<guid>https://blog.nullniverse.xyz/posts/signed-commits</guid>
-		<pubDate>2023-01-01 13:19:13 UTC</pubDate>
+		<pubDate>2023-01-01T13:19:13Z00:00</pubDate>
 	</item>
 		<item>
 		<title>First of all</title>
 		<description></description>
 		<link>https://blog.nullniverse.xyz/posts/first-of-all</link>
 		<guid>https://blog.nullniverse.xyz/posts/first-of-all</guid>
-		<pubDate>2022-12-20 13:19:13 UTC</pubDate>
+		<pubDate>2022-12-20T13:19:13Z</pubDate>
 	</item>
 </channel>
 </rss>
