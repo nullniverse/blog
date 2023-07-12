@@ -48,8 +48,8 @@ spec:
       secretName: {{ .secretName }}
   {{- end }}
 {{- end }}
-{{- range .rules }}
   rules:
+{{- range .rules }}
     - host: {{ .hosts | quote }}
       http:
       {{- range .http.paths }}
