@@ -1,0 +1,102 @@
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
+= Helm charts tricks
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
+
+---
+
+author null8607@163.com
+1.0, 07-11-2023: Helm
+
+---
+
+I've been writing Helm chart code extensively in order to improve maturity of some apps on
+ my org, and because a lot of deployments are outdated and we are migrating our CI/CD pipe.
+
+
+
+[source,shell]
+----
+{{- $svcPort := .Values.service.port -}}
+{{- if .Values.ingresses.enabled -}}
+{{- range .Values.ingresses.ingress }}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .name }}
+  namespace: {{ .namespace }}
+  labels:
+{{ include "app.labels" $ | indent 4 }}
+  {{- with .annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+{{- if .tls }}
+  tls:
+  {{- range .tls }}
+    - hosts:
+    {{- range .hosts }}
+      - {{ . | quote }}
+    {{- end }}
+      secretName: {{ .secretName }}
+  {{- end }}
+{{- end }}
+  rules:
+{{- range .rules }}
+    - host: {{ .hosts | quote }}
+      http:
+      {{- range .http.paths }}
+        paths:
+          - path: {{ .path | quote }}
+            pathType: {{ .pathType | quote }}
+            backend:
+              service:
+                name: {{ .backend.service.name | quote }}
+                port:
+                  number: {{ .backend.service.port.number | default $svcPort }}   
+      {{- end }}  
+{{- end }}
+{{- end }}
+{{- end }}
+----
+
+
+It's not only following the API structure for the networking.k8s.io/v1 ingress kind, but it's also modular enough so you can attach and remove ingresses as needed without much hurdle.
+
+Here follows the value.yaml example:
+
+[source,shell]
+----
+ingresses:
+enabled: true
+ingress:
+    - name: ingress-1
+    namespace: namespace
+    annotations:
+    ...
+    tls:
+        - hosts: my.host.com
+        secretName: tls-my-host.com
+    rules:
+        - hosts: my.host.com
+        http:
+            paths:
+            - path: /
+            pathType: Prefix
+            backend:
+                service:
+                name: "service-name"
+                port:
+                    number: 80
+    - name: ingress-2
+----
+
+Cheers!
+

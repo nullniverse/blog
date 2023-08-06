@@ -1,0 +1,81 @@
+:icons: font
+:allow-uri-read:
+:stylesheet: asciidoc-classic.css
+:imagesdir: /img
+
+= Pod Recurrent Restarts via Cronjobs
+ifndef::env-github[:toc: left]
+:toc-title: Резюме / Summary
+:toclevels: 5
+
+---
+
+author null8607@163.com
+1.0, 07-28-2023: Mandarin
+
+---
+
+
+[source,shell]
+----
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+rules:
+  - apiGroups: ["apps", "extensions"]
+    resources: ["deployments"]
+    resourceNames: ["deployment-name"]
+    verbs: ["get", "patch", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: deployment-restart
+subjects:
+  - kind: ServiceAccount
+    name: deployment-restart
+    namespace: ns-name
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+spec:
+  schedule: "* */5 * * *"
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      activeDeadlineSeconds: 600
+      template:
+        spec:
+          serviceAccountName: deployment-restart
+          containers:
+            - command:
+                - bash
+                - -c
+                - >-
+                  kubectl rollout restart deployment/deployment-name && kubectl rollout status deployment/deployment-name
+              image: bitnami/kubectl
+              imagePullPolicy: IfNotPresent
+              name: kubectl
+          restartPolicy: Never
+EOF
+----
+
+Cheers!
+
