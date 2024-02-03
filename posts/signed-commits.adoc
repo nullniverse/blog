@@ -1,7 +1,7 @@
 = Signed commits and multi-account on Github
 :icons: font
 :allow-uri-read:
-:stylesheet: asciidoc-classic.css
+:stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
 
 ifndef::env-github[:toc: left]

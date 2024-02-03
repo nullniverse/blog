@@ -1,6 +1,6 @@
 :icons: font
 :allow-uri-read:
-:stylesheet: asciidoc-classic.css
+:stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
 
 = Searching for Perls: musings on Perl learning
