@@ -8,7 +8,7 @@
 :allow-uri-read:
 :stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
-:favicon: /favicon.png
+:favicon: /favicon.ico
 
 
 ifdef::env-github[:outfilesuffix: .adoc]
