@@ -10,7 +10,7 @@ ifndef::env-github[:toc: left]
 
 ---
 
-author null8607@163.com
+author @nullniverse
 1.0, 07-28-2023: Mandarin
 
 ---

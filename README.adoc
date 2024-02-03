@@ -22,16 +22,15 @@ ifdef::env-github,env-browser[]
 :warning-caption: :warning:
 endif::[]
 
-:chapter-label:
-:description: это описание
-:listing-caption: Перечисление
-:figure-caption: Фигура
-
 
 = Nullniverse's blog
 ifndef::env-github[:toc: left]
 :toc-title: Summary
 :toclevels: 5
+
+:description: это описание
+:listing-caption: Перечисление
+:figure-caption: Фигура
 
 derelict garden webring
 

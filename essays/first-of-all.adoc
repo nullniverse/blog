@@ -6,6 +6,7 @@
 
 :icons: font
 :allow-uri-read:
+:stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
 :favicon: /favicon.png
 
@@ -28,20 +29,15 @@ endif::[]
 
 
 = First of all
-ifndef::env-github[:toc: left]
-:toc-title: Резюме / Summary
-:toclevels: 5
 
 ---
 
-author null8607@163.com
+author @nullniverse
 1.0, 12-24-2021: Random
 
 ---
 
 Hello, Worlds!
-
-== me
 
 It's very unusual to start a blog posting or even a blog platform altogether under the effect of magical mushrooms but yeah... I bet someone somewhere else did this exact same thing before...
 
@@ -49,7 +45,3 @@ My name is doug and by being alive for quite some time, and watching this realit
 
 [quote,me]
 What kind of architecture and in which level of abstraction does the code that sustains it all, run?
-
-== You
-
-This is a test
