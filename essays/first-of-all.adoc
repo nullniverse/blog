@@ -50,3 +50,7 @@ My name is doug and by being alive for quite some time, and watching this realit
 
 [quote,me]
 What kind of architecture and in which level of abstraction does the code that sustains it all, run?
+
+== You
+
+This is a test
