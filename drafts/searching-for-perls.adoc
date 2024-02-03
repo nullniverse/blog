@@ -1,7 +1,32 @@
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+:revealjs_slideNumber: true
+:stem: latexmath
+:source-highlighter: highlight.js
+:highlightjs-languages: c, cpp, hpp, cc, hh, c++, h++, cxx, hxx, h, rust, swift, go, golang, elixir, xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist, svg, java, jsp, json, javascript, js, jsx, kotlin, kt, tex, lisp, perl, pl, pm, powershell, ps, ps1, pgsql, postgres, postgresql, python, py, gyp, ruby, rb, gemspec, podspec, thor, irb, rust, rs, sql, yml, yaml
+
 :icons: font
 :allow-uri-read:
 :stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
+:favicon: /favicon.png
+
+
+ifdef::env-github[:outfilesuffix: .adoc]
+
+ifdef::env-github,env-browser[]
+// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+:chapter-label:
+:description: это описание
+:listing-caption: Перечисление
+:figure-caption: Фигура
+
 
 = Searching for Perls: musings on Perl learning
 ifndef::env-github[:toc: left]
