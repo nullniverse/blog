@@ -28,9 +28,9 @@ endif::[]
 :figure-caption: Фигура
 
 
-= nullniverse's blog
+= Nullniverse's blog
 ifndef::env-github[:toc: left]
-:toc-title: Резюме / Summary
+:toc-title: Summary
 :toclevels: 5
 
 derelict garden webring
