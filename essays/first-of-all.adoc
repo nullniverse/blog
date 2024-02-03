@@ -6,7 +6,7 @@
 
 :icons: font
 :allow-uri-read:
-:stylesheet: ./adoc-rocket-panda.css
+:stylesheet: adoc-rocket-panda.css
 :imagesdir: /img
 :favicon: /favicon.png
 
