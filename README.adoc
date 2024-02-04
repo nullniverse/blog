@@ -52,6 +52,6 @@ This is my personal blog where I casually write about my interests, and the cent
 * https://www.jumentosec.lol/[Jumento Security Conferences]
 
 == About-me
-https://keybase.io/nullniverse[My Keybase]
-https://t.me/nullniverseblog[Subscribe to my Telegram channel]
-https://www.goodreads.com/nullniverse[Follow me on GoodReads.com!]
+* https://keybase.io/nullniverse[My Keybase]
+* https://t.me/nullniverseblog[Subscribe to my Telegram channel]
+* https://www.goodreads.com/nullniverse[Follow me on GoodReads.com!]
