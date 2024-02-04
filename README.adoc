@@ -24,9 +24,6 @@ endif::[]
 
 
 = Nullniverse's blog
-ifndef::env-github[:toc: left]
-:toc-title: Summary
-:toclevels: 5
 :description: landing page of my personal blog page
 :keywords: blog, articles
 
