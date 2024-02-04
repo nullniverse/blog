@@ -25,13 +25,13 @@ endif::[]
 
 = Signed commits and multi-account on Github
 ifndef::env-github[:toc: left]
-:toc-title: Резюме / Summary
+:toc-title: Table of Contents
 :toclevels: 5
 
 ---
 
-author @nullniverse
-1.0, 10-03-2022: Git quests
+Nullniverse boverflow@bk.ru
+1.0, 10-03-2022: Git
 
 ---
 
