@@ -35,6 +35,7 @@ Nullniverse boverflow@bk.ru
 
 ---
 https://blog.nullniverse.xyz[_Return to /_]
+
 This guide is just a collection of steps and use case for implementing multi-account authentication on Github
 
 == Introduction
