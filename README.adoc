@@ -34,8 +34,10 @@ image:derelict-garden.png[]
 
 https://derelict.garden/prev/blog.nullniverse.xyz[previous blog,window=read-later] | https://derelict.garden/next/blog.nullniverse.xyz[next blog,window=read-later]
 
+https://derelict.garden/garden/garden-article-template.html[_What the heck is this garden thing?_]
+
+
 Become a member! https://derelict.garden/enter.html[Subscribe here.]
-https://derelict.garden/garden/garden-article-template.html[What the heck is this garden thing?]
 
 This is my personal blog where I casually write about my interests, and the central hub for other projects!
 
