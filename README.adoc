@@ -39,6 +39,8 @@ https://derelict.garden/garden/garden-article-template.html[_What the heck is th
 
 Become a member! https://derelict.garden/enter.html[Subscribe here.]
 
+'''
+
 This is my personal blog where I casually write about my interests, and the central hub for other projects!
 
 == Posts
