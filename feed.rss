@@ -6,8 +6,8 @@
 	<link>https://blog.nullniverse.xyz</link>
 	<language>en-us</language>
 	<copyright>2023 blog.nullniverse.xyz No rights reserved</copyright>
-	<lastBuildDate>Sat, 24 Dec 2022 16:14:35 -03</lastBuildDate>
-	<pubDate>Sat, 24 Dec 2022 16:14:35 -03</pubDate>
+	<lastBuildDate>Sat, 11 Apr 2024 07:45:35 -03</lastBuildDate>
+	<pubDate>Sat, 11 Apr 2024 07:50:35 -03</pubDate>
 	<ttl>1800</ttl>
 	<item>
 		<title>Helm charts tricks in ArgoCD</title>
