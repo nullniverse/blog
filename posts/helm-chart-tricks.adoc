@@ -28,22 +28,28 @@ endif::[]
 :figure-caption: Фигура
 
 
-= Helm charts tricks
+= Helm charts tricks in ArgoCD
 ifndef::env-github[:toc: left]
-:toc-title: Резюме / Summary
+:toc-title: Table of Contents
 :toclevels: 5
 
 ---
 
-author @nullniverse
-1.0, 07-11-2023: Helm
+Nullniverse boverflow@bk.ru
+1.0, 10-03-2022: Git
 
 ---
+https://blog.nullniverse.xyz[_Return to /_]
+
 
 I've been writing Helm chart code extensively in order to improve maturity of some apps on
- my org, and because a lot of deployments are outdated and we are migrating our CI/CD pipe.
+ my org and because a lot of deployments are outdated and we are migrating our CI/CD pipe.
 
+Modularity and flow control is a must in order to avoid complexity and foster readability.
 
+Let's go to the example. 
+
+Below is an Ingress recipe for k8s.
 
 [source,shell]
 ----
@@ -95,7 +101,9 @@ spec:
 
 It's not only following the API structure for the networking.k8s.io/v1 ingress kind, but it's also modular enough so you can attach and remove ingresses as needed without much hurdle.
 
-Here follows the value.yaml example:
+Here follows the value.yaml example. 
+
+It can have a vast number of ingresses each one starting at "name":
 
 [source,shell]
 ----
