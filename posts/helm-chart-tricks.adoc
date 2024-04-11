@@ -22,12 +22,6 @@ ifdef::env-github,env-browser[]
 :warning-caption: :warning:
 endif::[]
 
-:chapter-label:
-:description: это описание
-:listing-caption: Перечисление
-:figure-caption: Фигура
-
-
 = Helm charts tricks in ArgoCD
 ifndef::env-github[:toc: left]
 :toc-title: Table of Contents
@@ -36,7 +30,7 @@ ifndef::env-github[:toc: left]
 ---
 
 Nullniverse boverflow@bk.ru
-1.0, 10-03-2022: Git
+1.0, 04-11-2024: Helm, ArgoCD
 
 ---
 https://blog.nullniverse.xyz[_Return to /_]
