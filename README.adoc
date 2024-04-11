@@ -45,6 +45,9 @@ This is my personal blog where I casually write about my interests, and the cent
 
 == Posts
 
+* https://blog.nullniverse.xyz/posts/helm-chart-tricks[Helm charts tricks in ArgoCD]
+
+
 * https://blog.nullniverse.xyz/posts/signed-commits[Signed commits and multi-account on Github]
 
 == More
