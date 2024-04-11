@@ -23,7 +23,7 @@ ifdef::env-github,env-browser[]
 endif::[]
 
 
-= Signed commits and multi-account on Github
+= Signed commits and local Github multi-accounting
 ifndef::env-github[:toc: left]
 :toc-title: Table of Contents
 :toclevels: 5
