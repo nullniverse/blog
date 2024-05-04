@@ -10,6 +10,13 @@
 	<pubDate>Sat, 11 Apr 2024 07:50:35 -03</pubDate>
 	<ttl>1800</ttl>
 	<item>
+		<title>Pod Recurrent Restarts via Cronjobs</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/posts/pod-recurrent-restarts</link>
+		<guid>https://blog.nullniverse.xyz/posts/pod-recurrent-restarts</guid>
+		<pubDate>2024-05--3T22:20:00Z</pubDate>
+	</item>
+	<item>
 		<title>Helm charts tricks in ArgoCD</title>
 		<description></description>
 		<link>https://blog.nullniverse.xyz/posts/helm-chart-tricks</link>
