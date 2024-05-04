@@ -45,6 +45,8 @@ This is my personal blog where I casually write about my interests, and the cent
 
 == Posts
 
+* https://blog.nullniverse.xyz/posts/pod-recurrent-restarts[Pod Recurrent Restarts via Cronjobs]
+
 * https://blog.nullniverse.xyz/posts/helm-chart-tricks[Helm charts tricks in ArgoCD]
 
 
