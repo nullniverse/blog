@@ -35,9 +35,9 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false,//{
-        //  sidebarPath: './sidebars.ts'
-        //},
+        docs: {
+          sidebarPath: './sidebars.ts'
+        },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -103,7 +103,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Categories',
+          title: 'Tags',
           items: [
             {
               label: 'blogging',
