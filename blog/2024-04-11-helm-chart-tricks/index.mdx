@@ -1,55 +1,27 @@
-:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
-:revealjs_slideNumber: true
-:stem: latexmath
-:source-highlighter: highlight.js
-:highlightjs-languages: c, cpp, hpp, cc, hh, c++, h++, cxx, hxx, h, rust, swift, go, golang, elixir, xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist, svg, java, jsp, json, javascript, js, jsx, kotlin, kt, tex, lisp, perl, pl, pm, powershell, ps, ps1, pgsql, postgres, postgresql, python, py, gyp, ruby, rb, gemspec, podspec, thor, irb, rust, rs, sql, yml, yaml
+---
+slug: helm-chart-tricks
+title: Helm Chart Templating Tricks
+authors: [nullniverse]
+tags: [blogging,helm]
+---
 
-:icons: font
-:allow-uri-read:
-:stylesheet: adoc-rocket-panda.css
-:imagesdir: /img
-:favicon: /favicon.png
+_Some trick to alleviate the daily Helm burden of managing multiple equal resources in your deployments._
 
-
-ifdef::env-github[:outfilesuffix: .adoc]
-
-ifdef::env-github,env-browser[]
-// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
-:tip-caption: :bulb:
-:warning-caption: :warning:
-endif::[]
-
-= Helm charts tricks in ArgoCD
-ifndef::env-github[:toc: left]
-:toc-title: Table of Contents
-:toclevels: 5
+<!--truncate-->
 
 ---
 
-Nullniverse boverflow@bk.ru
-1.0, 04-11-2024: Helm, ArgoCD
+I've been writing a little bit of Helm chart code for my job, because a lot of deployments are outdated and we are migrating our CI/CD pipelines from Drone.io to ArgoCD.
 
----
-https://blog.nullniverse.xyz[_Return to /_]
+Modularity and flow control is a must in order to avoid complexity.
 
+Let's go to the example. Below is a modified Ingress recipe template for k8s:
 
-I've been writing Helm chart code extensively in order to improve maturity of some apps on
- my org and because a lot of deployments are outdated and we are migrating our CI/CD pipe.
-
-Modularity and flow control is a must in order to avoid complexity and foster readability.
-
-Let's go to the example. 
-
-Below is an Ingress recipe for k8s.
-
-[source,shell]
-----
+```jsx title="Ingress modified Helm templating" showLineNumbers
 {{- $svcPort := .Values.service.port -}}
 {{- if .Values.ingresses.enabled -}}
 {{- range .Values.ingresses.ingress }}
+// highlight-next-line
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -90,17 +62,18 @@ spec:
 {{- end }}
 {{- end }}
 {{- end }}
-----
-
+```
+:::info
+Note the highlighted line above (4), that allows it to iterate during resource creation generating multiple objects.
+:::
 
 It's not only following the API structure for the networking.k8s.io/v1 ingress kind, but it's also modular enough so you can attach and remove ingresses as needed without much hurdle.
 
-Here follows the value.yaml example. 
+Here follows the `value.yaml` example. 
 
 It can have a vast number of ingresses each one starting at "name":
 
-[source,shell]
-----
+```jsx title="Multiple ingress objects declared in values.yaml" showLineNumbers
 ingresses:
 enabled: true
 ingress:
@@ -123,7 +96,6 @@ ingress:
                 port:
                     number: 80
     - name: ingress-2
-----
+```
 
-Cheers!
-
+That's it.

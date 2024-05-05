@@ -1,35 +1,21 @@
-:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
-:revealjs_slideNumber: true
-:stem: latexmath
-:source-highlighter: highlight.js
-:highlightjs-languages: c, cpp, hpp, cc, hh, c++, h++, cxx, hxx, h, rust, swift, go, golang, elixir, xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist, svg, java, jsp, json, javascript, js, jsx, kotlin, kt, tex, lisp, perl, pl, pm, powershell, ps, ps1, pgsql, postgres, postgresql, python, py, gyp, ruby, rb, gemspec, podspec, thor, irb, rust, rs, sql, yml, yaml
+---
+sidebar_position: 3
+tags: [public]
+---
 
-:icons: font
-:allow-uri-read:
-:stylesheet: adoc-rocket-panda.css
-:imagesdir: img
-:favicon: favicon.png
+# Manifesto
 
+Manifesto contra eventos de Cibersegurança bosta espalhados pelo país.
 
-ifdef::env-github[:outfilesuffix: .adoc]
+<!--truncate-->
 
-ifdef::env-github,env-browser[]
-// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
-:tip-caption: :bulb:
-:warning-caption: :warning:
-endif::[]
+[@Infosec1000grau](https://twitter.com/infosec1000grau)
 
+:::important
+Esse manifesto visa conscientizar sobre e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
+:::
 
-= Manifesto
-
-https://twitter.com/infosec1000grau[@Infosec1000grau]
-
-IMPORTANT: Esse manifesto visa conscientizar sobre e abolir qualquer evento abusivo de cibersegurança e afins em território nacional.
-
-== Greve contra qualquer evento que:
+**Contra qualquer evento que:**
 
 - Fique em lugar bosta
 - Fale sobre acessibilidade web

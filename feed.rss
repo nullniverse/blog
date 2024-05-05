@@ -5,29 +5,29 @@
 	<description>unfocused themes about tech, programming, and mental constructs</description>
 	<link>https://blog.nullniverse.xyz</link>
 	<language>en-us</language>
-	<copyright>2023 blog.nullniverse.xyz No rights reserved</copyright>
+	<copyright>2024 blog.nullniverse.xyz No rights reserved</copyright>
 	<lastBuildDate>Sat, 11 Apr 2024 07:45:35 -03</lastBuildDate>
 	<pubDate>Sat, 11 Apr 2024 07:50:35 -03</pubDate>
 	<ttl>1800</ttl>
 	<item>
 		<title>Pod Recurrent Restarts via Cronjobs</title>
 		<description></description>
-		<link>https://blog.nullniverse.xyz/posts/pod-recurrent-restarts</link>
-		<guid>https://blog.nullniverse.xyz/posts/pod-recurrent-restarts</guid>
-		<pubDate>2024-05--3T22:20:00Z</pubDate>
+		<link>https://blog.nullniverse.xyz/pod-recurrent-restarts</link>
+		<guid>https://blog.nullniverse.xyz/pod-recurrent-restarts</guid>
+		<pubDate>2024-05-03T22:20:00Z</pubDate>
 	</item>
 	<item>
-		<title>Helm charts tricks in ArgoCD</title>
+		<title>Helm Chart Templating Tricks</title>
 		<description></description>
-		<link>https://blog.nullniverse.xyz/posts/helm-chart-tricks</link>
-		<guid>https://blog.nullniverse.xyz/posts/helm-chart-tricks</guid>
+		<link>https://blog.nullniverse.xyz/helm-chart-tricks</link>
+		<guid>https://blog.nullniverse.xyz/helm-chart-tricks</guid>
 		<pubDate>2024-04-11T07:31:45Z</pubDate>
 	</item>
 	<item>
-		<title>Signed commits and multi-account on Github</title>
+		<title>Github Multi Accounting</title>
 		<description></description>
-		<link>https://blog.nullniverse.xyz/posts/signed-commits</link>
-		<guid>https://blog.nullniverse.xyz/posts/signed-commits</guid>
+		<link>https://blog.nullniverse.xyz/github-multiaccount</link>
+		<guid>https://blog.nullniverse.xyz/github-multiaccount</guid>
 		<pubDate>2023-06-16T16:16:16Z</pubDate>
 	</item>
 </channel>
