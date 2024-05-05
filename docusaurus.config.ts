@@ -103,7 +103,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Tags',
+          title: 'Categories',
           items: [
             {
               label: 'blogging',
