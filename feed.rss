@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Nullniverse Blog RSS</title>
+	<description>unfocused themes about tech, programming, and mental constructs</description>
+	<link>https://blog.nullniverse.xyz</link>
+	<language>en-us</language>
+	<copyright>2024 blog.nullniverse.xyz No rights reserved</copyright>
+	<lastBuildDate>Sat, 11 Apr 2024 07:45:35 -03</lastBuildDate>
+	<pubDate>Sat, 11 Apr 2024 07:50:35 -03</pubDate>
+	<ttl>1800</ttl>
+	<item>
+		<title>Pod Recurrent Restarts via Cronjobs</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/pod-recurrent-restarts</link>
+		<guid>https://blog.nullniverse.xyz/pod-recurrent-restarts</guid>
+		<pubDate>2024-05-03T22:20:00Z</pubDate>
+	</item>
+	<item>
+		<title>Helm Chart Templating Tricks</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/helm-chart-tricks</link>
+		<guid>https://blog.nullniverse.xyz/helm-chart-tricks</guid>
+		<pubDate>2024-04-11T07:31:45Z</pubDate>
+	</item>
+	<item>
+		<title>Github Multi Accounting</title>
+		<description></description>
+		<link>https://blog.nullniverse.xyz/github-multiaccount</link>
+		<guid>https://blog.nullniverse.xyz/github-multiaccount</guid>
+		<pubDate>2023-06-16T16:16:16Z</pubDate>
+	</item>
+</channel>
+</rss>

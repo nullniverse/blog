@@ -1,0 +1,101 @@
+---
+slug: helm-chart-tricks
+title: Helm Chart Templating Tricks
+authors: [nullniverse]
+tags: [blogging,helm]
+---
+
+_Some trick to alleviate the daily Helm burden of managing multiple equal resources in your deployments._
+
+<!--truncate-->
+
+---
+
+I've been writing a little bit of Helm chart code for my job, because a lot of deployments are outdated and we are migrating our CI/CD pipelines from Drone.io to ArgoCD.
+
+Modularity and flow control is a must in order to avoid complexity.
+
+Let's go to the example. Below is a modified Ingress recipe template for k8s:
+
+```jsx title="Ingress modified Helm templating" showLineNumbers
+{{- $svcPort := .Values.service.port -}}
+{{- if .Values.ingresses.enabled -}}
+{{- range .Values.ingresses.ingress }}
+// highlight-next-line
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .name }}
+  namespace: {{ .namespace }}
+  labels:
+{{ include "app.labels" $ | indent 4 }}
+  {{- with .annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+{{- if .tls }}
+  tls:
+  {{- range .tls }}
+    - hosts:
+    {{- range .hosts }}
+      - {{ . | quote }}
+    {{- end }}
+      secretName: {{ .secretName }}
+  {{- end }}
+{{- end }}
+  rules:
+{{- range .rules }}
+    - host: {{ .hosts | quote }}
+      http:
+      {{- range .http.paths }}
+        paths:
+          - path: {{ .path | quote }}
+            pathType: {{ .pathType | quote }}
+            backend:
+              service:
+                name: {{ .backend.service.name | quote }}
+                port:
+                  number: {{ .backend.service.port.number | default $svcPort }}   
+      {{- end }}  
+{{- end }}
+{{- end }}
+{{- end }}
+```
+:::info
+Note the highlighted line above (4), that allows it to iterate during resource creation generating multiple objects.
+:::
+
+It's not only following the API structure for the networking.k8s.io/v1 ingress kind, but it's also modular enough so you can attach and remove ingresses as needed without much hurdle.
+
+Here follows the `value.yaml` example. 
+
+It can have a vast number of ingresses each one starting at "name":
+
+```jsx title="Multiple ingress objects declared in values.yaml" showLineNumbers
+ingresses:
+enabled: true
+ingress:
+    - name: ingress-1
+    namespace: namespace
+    annotations:
+    ...
+    tls:
+        - hosts: my.host.com
+        secretName: tls-my-host.com
+    rules:
+        - hosts: my.host.com
+        http:
+            paths:
+            - path: /
+            pathType: Prefix
+            backend:
+                service:
+                name: "service-name"
+                port:
+                    number: 80
+    - name: ingress-2
+```
+
+That's it.

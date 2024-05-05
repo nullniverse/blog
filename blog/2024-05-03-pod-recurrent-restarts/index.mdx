@@ -1,0 +1,75 @@
+---
+slug: pod-recurrent-restarts
+title: Pod Recurrent Restarts via Cronjobs
+authors: [nullniverse]
+tags: [blogging,helm]
+---
+
+_Ever wondered how to cycle your deployment/pods the native way? Think no more!_
+
+<!--truncate-->
+
+```jsx title="Roles and account creation" showLineNumbers
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+rules:
+  - apiGroups: ["apps", "extensions"]
+    resources: ["deployments"]
+    resourceNames: ["deployment-name"]
+    verbs: ["get", "patch", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: deployment-restart
+subjects:
+  - kind: ServiceAccount
+    name: deployment-restart
+    namespace: ns-name
+EOF
+```
+
+```jsx title="Cronjob creation" showLineNumbers
+kubectl apply -f - <<EOF
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: deployment-restart
+  namespace: ns-name
+spec:
+  schedule: "* */5 * * *"
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      activeDeadlineSeconds: 600
+      template:
+        spec:
+          serviceAccountName: deployment-restart
+          containers:
+            - command:
+                - bash
+                - -c
+                - >-
+                  kubectl rollout restart deployment/deployment-name && kubectl rollout status deployment/deployment-name
+              image: bitnami/kubectl
+              imagePullPolicy: IfNotPresent
+              name: kubectl
+          restartPolicy: Never
+EOF
+```
+
