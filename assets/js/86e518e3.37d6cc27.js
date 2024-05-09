@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknullniverseblog=self.webpackChunknullniverseblog||[]).push([[912],{5616:l=>{l.exports=JSON.parse('{"tag":{"label":"helm","permalink":"/tags/helm","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/helm","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

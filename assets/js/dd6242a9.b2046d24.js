@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknullniverseblog=self.webpackChunknullniverseblog||[]).push([[507],{8637:e=>{e.exports=JSON.parse('{"tags":[{"label":"blogging","permalink":"/tags/blogging","count":3},{"label":"kubernetes","permalink":"/tags/kubernetes","count":1},{"label":"helm","permalink":"/tags/helm","count":1},{"label":"git","permalink":"/tags/git","count":1}]}')}}]);

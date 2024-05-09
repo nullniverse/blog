@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknullniverseblog=self.webpackChunknullniverseblog||[]).push([[67],{3850:l=>{l.exports=JSON.parse('{"tag":{"label":"git","permalink":"/tags/git","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/git","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
