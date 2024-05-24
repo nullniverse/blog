@@ -146,8 +146,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Wiki',
-              to: 'https://wiki.nullniverse.xyz',
+              label: 'Genius',
+              to: 'https://genius.com/dkovalev1911',
             },
             {
               label: 'GitHub',
