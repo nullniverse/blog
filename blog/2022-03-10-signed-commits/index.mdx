@@ -170,4 +170,13 @@ One thing to notice in the above configuration is that you can use more than one
 
 If you're taking advantage of this pandemic and working more than one all-remote job, you could negotiate to use your same username and enjoy a multi-org config. Just create more .git-professional-`<number>` files and more `[includeIf]` entries in your `.gitconfig` file.
 
+Now, for cloning accordingly (Github example), for other configured accounts *not* in your first `[Include]`- which is applicable to any folder _besides_ the configured others - you need to run the clone command this way:
+
+```jsx title="Cloning from your additional accounts in the right directory" showLineNumbers
+$ git clone git@github.com-<account_username>:<account_username>/<repo_name>.git <repo_name>_<account_username>
+
+$ git clone git@github.com-nullniverse:nullniverse/my_repo.git my_repo_nullniverse
+
+```
+
 That's it.
