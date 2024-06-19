@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://blog.nullniverse.xyz',
+  url: 'https://blog.16090000.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -101,16 +101,16 @@ const config: Config = {
           label: 'Github',
           position: 'right',
         },
-        {to: 'https://memo.nullniverse.xyz', label: 'Wiki', position: 'left'},
+        {to: 'https://wiki.16090000.xyz/', label: 'Wiki', position: 'left'},
         {to: 'https://derelict.garden/enter.html', label: 'Garden', position: 'left'},
         {
           href: 'https://derelict.garden/',
           label: 'Derelict.Garden',
           position: 'right',
         },
-        {to: 'https://derelict.garden/prev/blog.nullniverse.xyz', label: ' ««', position: 'left'},
+        {to: 'https://derelict.garden/prev/blog.16090000.xyz', label: ' ««', position: 'left'},
         {to: '#', label: ' | ', position: 'left'},
-        {to: 'https://derelict.garden/next/blog.nullniverse.xyz', label: '»» ', position: 'left'},
+        {to: 'https://derelict.garden/next/blog.16090000.xyz', label: '»» ', position: 'left'},
       ],
     },
     footer: {
