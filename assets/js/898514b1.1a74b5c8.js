@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknullniverseblog=self.webpackChunknullniverseblog||[]).push([[67],{9187:e=>{e.exports=JSON.parse('{"tags":[{"label":"public","permalink":"/docs/tags/public","count":1}]}')}}]);
