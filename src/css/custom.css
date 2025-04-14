@@ -6,25 +6,44 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8581;
-  --ifm-color-primary-dark: #297578;
-  --ifm-color-primary-darker: #277171;
-  --ifm-color-primary-darkest: #20595d;
-  --ifm-color-primary-light: #338f92;
-  --ifm-color-primary-lighter: #359999;
-  --ifm-color-primary-lightest: #3ca5ad;
+  /* Nord Polar Night for main colors */
+  --ifm-color-primary: #8FBCBB;         /* Frost 1 - Key accent color */
+  --ifm-color-primary-dark: #88C0D0;       /* Frost 2 - Slightly darker */
+  --ifm-color-primary-darker: #81A1C1;     /* Frost 3 - Even darker */
+  --ifm-color-primary-darkest: #5E81AC;    /* Frost 4 - Darkest accent */
+  --ifm-color-primary-light: #9CD5DD;      /* Slightly Lighter Accent */
+  --ifm-color-primary-lighter: #A5DCE4;    /* Even Lighter */
+  --ifm-color-primary-lightest: #BDEDE9;   /* Lightest Accent */
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(76, 86, 106, 0.1); /* Polar Night 4 */
+
+  /* Text and Background */
+  --ifm-background-color: #ECEFF4;          /* Snow Storm 3 */
+  --ifm-font-color-base: #4C566A;         /* Polar Night 4 */
+
+  /* Link color, consider frost colors */
+  --ifm-link-color: #81A1C1;           /* Frost 3 */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25a3c2;
-  --ifm-color-primary-dark: #219eaf;
-  --ifm-color-primary-darker: #1f91a5;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5d5;
-  --ifm-color-primary-lighter: #32a3d8;
-  --ifm-color-primary-lightest: #4fccdd;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Nord Polar Night for main colors */
+  --ifm-color-primary: #8FBCBB;          /* Frost 1 - Key accent color */
+  --ifm-color-primary-dark: #88C0D0;        /* Frost 2 - Slightly darker */
+  --ifm-color-primary-darker: #81A1C1;      /* Frost 3 - Even darker */
+  --ifm-color-primary-darkest: #5E81AC;     /* Frost 4 - Darkest accent */
+  --ifm-color-primary-light: #9CD5DD;       /* Slightly Lighter Accent */
+  --ifm-color-primary-lighter: #A5DCE4;     /* Even Lighter */
+  --ifm-color-primary-lightest: #BDEDE9;    /* Lightest Accent */
+
+  --docusaurus-highlighted-code-line-bg: rgba(76, 86, 106, 0.3); /* Polar Night 4 */
+
+  /* Text and Background */
+  --ifm-background-color: #2E3440;         /* Polar Night 1 */
+  --ifm-font-color-base: #D8DEE9;        /* Snow Storm 1 */
+
+  /* Link color, consider frost colors */
+  --ifm-link-color: #81A1C1;          /* Frost 3 */
+
 }

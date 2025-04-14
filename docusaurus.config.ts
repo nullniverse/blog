@@ -5,8 +5,8 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-  title: 'Nullniverse\'s blog',
-  tagline: 'A place to output some states from my holonomic brain',
+  title: 'Posts',
+  tagline: 'A place for contemplation.',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -27,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh',
+    locales: ['CN'],
   },
 
   presets: [
@@ -90,7 +90,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/favicon.png',
     navbar: {
-      title: '📎 Nullniverse\'s blog',
+      title: 'Blog',
       logo: {
         alt: 'Nullniverse',
         src: 'img/favicon.png',
@@ -99,7 +99,7 @@ const config: Config = {
         {
           href: 'https://github.com/nullniverse/blog',
           label: 'Github',
-          position: 'right',
+          position: 'left',
         },
         {to: 'https://wiki.16090000.xyz/', label: 'Wiki', position: 'left'},
         {to: 'https://derelict.garden/enter.html', label: 'Garden', position: 'left'},
@@ -114,7 +114,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Tags',
@@ -140,21 +140,12 @@ const config: Config = {
               label: 'Twitter',
               href: 'https://twitter.com/laowaidoug',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Genius',
-              to: 'https://genius.com/dkovalev1911',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/nullniverse',
-            },
+            }
           ],
-        },
+        }
       ],
       copyright: `MIT License - ${new Date().getFullYear()} | Nullniverse. Built with 💙 using Docusaurus.`,
     },
